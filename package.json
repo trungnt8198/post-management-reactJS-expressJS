@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "workspaces": [
+    "posts-server"
+  ],
   "scripts": {
     "dev": "concurrently \"vite\" \"npm --prefix posts-server run dev\"",
     "build": "vite build",
