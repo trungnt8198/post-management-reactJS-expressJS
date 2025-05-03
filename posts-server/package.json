@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.5"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node --watch server.js"
+  }
+}
